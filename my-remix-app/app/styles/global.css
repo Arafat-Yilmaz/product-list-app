@@ -1,0 +1,31 @@
+
+/* Yatay Scroll Alanı */
+.horizontal-products {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  
+  /* 2'li Gösterim Alanı */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Ürün İtem */
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: white
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
